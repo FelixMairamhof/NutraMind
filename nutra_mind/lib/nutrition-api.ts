@@ -29,7 +29,7 @@ Provide a JSON response with:
 Focus on:
 - Accurate nutrition estimates for a standard serving
 - Health benefits/concerns relevant to the user's goals
-- Practical advice (e.g., "good for muscle building" or "may trigger acne in sensitive individuals")
+- Practical advice (e.g., "good for muscle building" or "may support skin health/acne management in sensitive individuals")
 
 Return only valid JSON in this format:
 {
@@ -94,13 +94,13 @@ ${dataContext}
 Provide a single, actionable health insight (1-2 sentences) that:
 1. Is encouraging and positive
 2. Gives specific, practical advice
-3. Considers their goals (muscle building, weight loss, acne control, etc.)
+3. Considers their goals (muscle building, weight loss, skin health/acne control, etc.)
 4. References their current nutrition patterns
 
 Examples:
 - "Your protein intake is excellent for muscle building! Consider adding some complex carbs post-workout for better recovery."
 - "Great calorie control today for your weight loss goals. Adding more fiber-rich vegetables could help you feel more satisfied."
-- "Your low-carb approach aligns well with acne management. Try incorporating more omega-3 rich foods like salmon for additional skin benefits."
+- "Your low-carb approach aligns well with skin health and acne management. Try incorporating more omega-3 rich foods like salmon for additional skin benefits."
 
 Return only the insight text, no JSON or formatting.`
 

@@ -21,7 +21,7 @@ const goalOptions = [
   { id: "muscle", label: "Muskelaufbau", description: "Magere Muskelmasse aufbauen" },
   { id: "diet", label: "Gewichtsverlust", description: "Gewicht und Körperfett reduzieren" },
   { id: "longevity", label: "Langlebigkeit", description: "Für langfristige Gesundheit optimieren" },
-  { id: "acne", label: "Akne-Kontrolle", description: "Hautgesundheit verbessern" },
+  { id: "acne", label: "Hautgesundheit", description: "Hautgesundheit verbessern" },
   { id: "energy", label: "Energie-Boost", description: "Tägliches Energieniveau steigern" },
   { id: "performance", label: "Sportliche Leistung", description: "Trainingsleistung verbessern" },
 ]
